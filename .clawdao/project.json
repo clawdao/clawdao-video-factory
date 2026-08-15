@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "description": "口播短视频制作工厂 — 媒体处理中间件：抖音解析 / yt-dlp 下载 / FFmpeg 转码 / HTTP 代理",
+  "tags": [
+    "video",
+    "media",
+    "tools"
+  ],
+  "version": "0.0.1",
+  "kind": "app",
+  "ports": {
+    "web": 5180,
+    "dev": 18793
+  },
+  "protocol": {
+    "lifecycle": {
+      "start": [
+        "bun",
+        "run",
+        "dev"
+      ]
+    }
+  },
+  "sourceManifests": [],
+  "generatedAt": "2026-08-08T23:40:00.000Z",
+  "generatorVersion": "1.0.30-pi"
+}

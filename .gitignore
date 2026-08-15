@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Build output
+dist/
+web/dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Runtime state
+.clawdao/.running.pids
+.running.pids
+
+# Working / temporary outputs
+outputs/tmp/
+recordings/
+temp/
+*.tmp
+.tmp/
+
+# Media scratch (regeneratable)
+*.aiff
+voice.aiff
+
+# Generated demo / promo artifacts (regeneratable from src/)
+outputs/*.mp4
+outputs/*.mov
+outputs/*.webm
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.gif
+outputs/*.srt

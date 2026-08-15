@@ -1,0 +1,24 @@
+{
+  "name": "@clawdao/video-factory",
+  "version": "0.0.1",
+  "description": "口播短视频制作工厂 — 媒体处理中间件：抖音解析 / yt-dlp 下载 / FFmpeg 转码 / HTTP 代理",
+  "type": "module",
+  "main": "./src/index.ts",
+  "bin": {
+    "video-factory": "./src/index.ts"
+  },
+  "files": ["src", "clients", "scripts", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "bun run src/index.ts --port 18792",
+    "dev": "bun run scripts/start-all.ts",
+    "dev:backend": "bun --watch run src/index.ts --port 18792",
+    "dev:frontend": "cd web && npx vite --host --port 5180",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["video", "douyin", "ffmpeg", "yt-dlp", "media", "toolbox"],
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
